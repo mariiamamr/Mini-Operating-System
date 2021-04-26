@@ -1,0 +1,22 @@
+#At time x process y state arr w total z remain y wait k
+
+At time 4 process 1 started arr 4 total 5 remain 5 wait 0
+At time 6 process 1 stopped arr 4 total 5 remain 3 wait 0
+At time 6 process 2 started arr 6 total 2 remain 2 wait 0
+At time 8 process 2 finished arr 6 total 2 remain 0 wait 0 
+At time 8 process 1 resumed arr 4 total 5 remain 3 wait 2
+At time 9 process 1 finished arr 4 total 5 remain 0 wait 0 
+At time 10 process 3 started arr 10 total 3 remain 3 wait 0
+At time 12 process 4 stopped arr 11 total 6 remain 5 wait 0
+At time 12 process 5 started arr 12 total 4 remain 4 wait 0
+At time 13 process 5 finished arr 12 total 4 remain 0 wait 3 
+At time 13 process 4 resumed arr 11 total 6 remain 5 wait 1
+At time 13 process 4 stopped arr 11 total 6 remain 5 wait 1
+At time 13 process 6 started arr 13 total 3 remain 3 wait 0
+At time 16 process 6 finished arr 13 total 3 remain 0 wait 0 
+At time 16 process 4 resumed arr 11 total 6 remain 5 wait 4
+At time 22 process 4 finished arr 11 total 6 remain 0 wait 5 
+At time 23 process 7 started arr 23 total 2 remain 2 wait 0
+At time 25 process 7 finished arr 23 total 2 remain 0 wait 0 
+At time 26 process 8 started arr 26 total 3 remain 3 wait 0
+At time 29 process 8 finished arr 26 total 3 remain 0 wait 0 
